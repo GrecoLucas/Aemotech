@@ -1,121 +1,50 @@
-﻿# Aemotech - Super Mocambique
+﻿#  Super Moçambique
 
-O Super Mocambique e um app/site que conecta turistas a empreendedores e residentes locais, promovendo experiencias autenticas, espontaneas e acessiveis.
+**Aemotech** — Conectando turistas a experiências autênticas locais
 
-## Objetivo do projeto
+---
 
-Transformar bairros simples e menos conhecidos de Mocambique em pontos turisticos autenticos, gerando rendimento direto para as comunidades.
+##  Descrição do Projeto
 
-## Como rodar o projeto do zero (sem nada instalado)
+O **Super Moçambique** é um app/site que conecta turistas a empreendimentos e residentes locais, promovendo experiências locais espontâneas e acessíveis. 
 
-Este projeto usa **Expo + React Native Web**. Voce pode rodar no navegador (site) e tambem no celular.
+**Objetivo principal**: Transformar bairros simples e menos conhecidos de Moçambique em pontos turísticos autênticos, gerando rendimento direto para as comunidades.
 
-### 1. Instalar ferramentas
+---
 
-No Windows, instale:
+##  Como Funciona
 
-1. **Node.js LTS (22.x ou 20.x)**
-	- Baixe em: https://nodejs.org/
-	- Durante a instalacao, mantenha as opcoes padrao.
+###  Empreendedores Locais
 
-2. **Git** (opcional, mas recomendado)
-	- Baixe em: https://git-scm.com/downloads
+- **Gestão de Ofertas**: Criar e gerir atividades próprias, definindo preços, vagas e horários de forma autónoma
+- **Gamificação e Incentivos**: Sistema de pontos e bónus com bonificação especial para locais sugeridos ainda não mapeados, incentivando descoberta contínua de novos pontos de interesse
 
-3. **VS Code** (opcional, recomendado)
-	- Baixe em: https://code.visualstudio.com/
+### Turistas
 
-Para testar no celular, instale tambem o app **Expo Go**:
+- **Sem Fricção**: Acesso imediato ao "Mapa Inteligente" sem necessidade de criar conta ou fazer registo
+- **Exploração Visual**: Explorar mapa, ver fotos reais dos locais, ler detalhes e selecionar experiências desejadas
 
-4. **Expo Go**
-	- Android: Play Store
-	- iOS: App Store
+###  Feedback Loop
 
-### 2. Baixar o projeto
+- **Avaliações e Comentários**: Turistas deixam feedback sobre experiências, ajudando outros utilizadores e fornecendo insights valiosos aos empreendedores locais
 
-Se estiver com Git:
+---
 
-```bash
-git clone <URL_DO_REPOSITORIO>
-cd Aemotech/SuperMocambique
-```
+##  Problemas que Resolve
 
-Se nao estiver com Git:
+### Falta de Visibilidade para Empreendedores
+Muitos residentes têm atividades ou serviços únicos, mas não têm uma plataforma para promovê-los. Super Moçambique fornece um espaço dedicado para conexão direta com turistas.
 
-1. Baixe o ZIP do projeto.
-2. Extraia o ZIP.
-3. Abra a pasta `Aemotech/SuperMocambique` no terminal.
+### Experiências Turísticas Genéricas
+Turistas buscam experiências autênticas e locais mas têm dificuldade em encontrá-las. O "Mapa Inteligente" destaca atividades genuínas e pontos de interesse, promovendo experiências ricas e personalizadas.
 
-### 3. Instalar dependencias
-
-Dentro da pasta `SuperMocambique`, rode:
-
-```bash
-npm install
-```
-
-### 4. Rodar como site (web)
-
-Ainda dentro de `SuperMocambique`, rode:
-
-```bash
-npm run web
-```
-
-Depois abra no navegador o endereco mostrado no terminal (normalmente `http://localhost:8081`).
-
-### 5. Rodar no celular (opcional)
-
-Na mesma pasta, rode:
-
-```bash
-npm start
-```
-
-Depois:
-
-1. Abra o **Expo Go** no celular.
-2. Escaneie o QR Code exibido no terminal.
-
-## Scripts disponiveis
-
-Na pasta `SuperMocambique`:
-
-- `npm start` -> inicia o Expo
-- `npm run web` -> abre no navegador
-- `npm run android` -> abre no Android (emulador/dispositivo)
-- `npm run ios` -> abre no iOS (somente macOS)
-
-## Solucao de problemas rapida
-
-### Porta ocupada
-
-Se a porta estiver ocupada, finalize o processo antigo ou rode novamente e escolha outra porta quando o Expo perguntar.
-
-### Erro apos atualizar dependencias
-
-Apague `node_modules` e `package-lock.json`, depois rode:
-
-```bash
-npm install
-```
-
-### Node muito antigo
-
-Confirme a versao:
-
-```bash
-node -v
-```
-
-Se for muito antiga, atualize para Node.js LTS.
-
-## Resumo rapido
-
-Dentro da pasta `SuperMocambique`:
-
-```bash
-npm install
-npm run web
-```
+### Sustentabilidade e Impacto Comunitário
+Promove turismo sustentável, incentivando exploração de áreas menos conhecidas e apoio direto às comunidades locais, contribuindo para desenvolvimento econômico e social.
 
 
+---
+
+##  Stack Tecnológico
+
+- **Framework**: React Native (Expo)
+- **Projeto**: `SuperMocambique/`
